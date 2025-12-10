@@ -39,13 +39,11 @@ class MyCoursesPage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              
               const Text(
                 "My Learning",
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 20),
-
 
               Container(
                 padding: const EdgeInsets.all(20),
